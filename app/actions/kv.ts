@@ -1,8 +1,6 @@
 "use server";
 
 import { getRequestContext } from "@cloudflare/next-on-pages";
-import { url } from "inspector";
-import { NextResponse } from "next/server";
 
 type postjson = {
   url: string;

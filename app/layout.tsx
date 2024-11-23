@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@fontsource/roboto/300.css";
